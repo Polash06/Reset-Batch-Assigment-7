@@ -1,0 +1,18 @@
+[
+    {
+      "image": "image-url.jpg",
+      "name": "Spaghetti Carbonara",
+      "description": "Classic Italian pasta dish with eggs, cheese, and pancetta.",
+      "ingredients": ["Spaghetti", "Eggs", "Parmesan cheese", "Pancetta", "Black pepper"],
+      "preparation_time": "30 minutes",
+      "calories": "450 kcal"
+    },
+    {
+      "image": "image-url.jpg",
+      "name": "Vegetable Stir-Fry",
+      "description": "Quick and healthy stir-fry with assorted vegetables.",
+      "ingredients": ["Broccoli", "Bell peppers", "Carrots", "Snap peas", "Soy sauce"],
+      "preparation_time": "20 minutes",
+      "calories": "300 kcal"
+    }
+  ]
