@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
-const Blog = ({ blog }) => {
+
+const Blog = ({ blog ,HandelcookingMarks }) => {
   const { name, image, description, preparation_time } = blog;
   return (
     <div>
@@ -59,7 +60,9 @@ const Blog = ({ blog }) => {
             </div>
 
             <div className="card-actions justify-center">
-              <button className="btn btn-success font-bold text-xl mr-4 rounded-3xl w-44">
+              <button 
+              onClick={() => HandelcookingMarks (blog)}
+              className="btn btn-success font-bold text-xl mr-4 rounded-3xl w-44">
                 Want to Cook
               </button>
             </div>

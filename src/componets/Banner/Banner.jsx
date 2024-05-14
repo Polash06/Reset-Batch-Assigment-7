@@ -4,7 +4,7 @@ const Banner = () => {
       <div
         className="hero min-h-screen"  
       >
-        <img className="w-full rounded-3xl h-[900px]" src="/src/assets/24912997.webp" alt="" />
+        <img className="w-full rounded-3xl h-[900px]" src="/images/24912997 - Copy.webp" alt="" />
         <div className="">
           <div className="">
             <h1 className="mb-28 text-7xl font-bold text-white mx-56">Discover an exceptional cooking <br></br><small className="mx-56 text-7xl">class tailored for you!</small></h1>

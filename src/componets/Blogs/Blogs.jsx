@@ -1,9 +1,12 @@
+/* eslint-disable react/prop-types */
+
+
 import { useEffect } from "react";
 import { useState } from "react";
 import Blog from "../Blog/Blog";
 
 
-const Blogs = () => {
+const Blogs = ({HandelcookingMarks}) => {
     const [blogs , Setblogs] = useState([])
 
     useEffect( () =>{
@@ -13,10 +16,9 @@ const Blogs = () => {
     } ,[])
     return (
         <div className="md:w-2/3 mx-16 mt-8">
-            <h2 className="text-4xl font-medium">Blogs : {blogs.length}</h2>
             <div className="flex gap-6 mt-8">
             {
-                blogs.map( blog => <Blog key={blog.id} blog={blog}></Blog>)
+                blogs.map( blog => <Blog HandelcookingMarks={HandelcookingMarks} key={blog.id} blog={blog}></Blog>)
             }
             </div>
         </div>
