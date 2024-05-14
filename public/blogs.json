@@ -1,18 +1,20 @@
 [
     {
-      "image": "image-url.jpg",
-      "name": "Spaghetti Carbonara",
-      "description": "Classic Italian pasta dish with eggs, cheese, and pancetta.",
+      "image": "https://i.ibb.co/rcPhVdx/images-2.jpg",
+      "name": "Spaghetti Bolognese",
+      "description": "Classic Italian pasta dish with savory meat sauce.",
       "ingredients": ["Spaghetti", "Eggs", "Parmesan cheese", "Pancetta", "Black pepper"],
-      "preparation_time": "30 minutes",
-      "calories": "450 kcal"
+      "preparation_time": "Ingredients : ",
+      "calories": "450 kcal",
+      "id" : 1
     },
     {
-      "image": "image-url.jpg",
-      "name": "Vegetable Stir-Fry",
-      "description": "Quick and healthy stir-fry with assorted vegetables.",
+      "image": "https://i.ibb.co/879ZYLJ/package-6047cf1f20c9a-354681168.jpg",
+      "name": "Spaghetti Bolognese",
+      "description": "Classic Italian pasta dish with savory meat sauce.",
       "ingredients": ["Broccoli", "Bell peppers", "Carrots", "Snap peas", "Soy sauce"],
-      "preparation_time": "20 minutes",
-      "calories": "300 kcal"
+      "preparation_time": "Ingredients : ",
+      "calories": "300 kcal" ,
+      "id" : 1
     }
   ]

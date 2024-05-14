@@ -7,7 +7,6 @@ const Main = () => {
             <p className="text-center mt-2">Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus vulputate netus pharetra rhoncus. Eget urna volutpat curabitur elementum mauris aenean neque. </p>
            </div>
            <div>
-
            </div>
         </div>
     );
